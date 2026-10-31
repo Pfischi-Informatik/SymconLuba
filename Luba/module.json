@@ -1,0 +1,12 @@
+{
+    "id": "{5FCA487B-94B5-4458-BBA7-B30C9C02A4D4}",
+    "name": "Mammotion Luba",
+    "type": 3,
+    "vendor": "Mammotion",
+    "aliases": ["Luba", "Yuka", "Maehroboter", "luba-control"],
+    "parentRequirements": ["{043EA491-0325-4ADD-8FC2-A30C8EEB4D3F}"],
+    "childRequirements": [],
+    "implemented": ["{7F7632D9-FA40-4F38-8DEA-C83CD4325A32}"],
+    "prefix": "LUBA",
+    "url": "https://github.com/Pfischi-Informatik/SymconLuba"
+}

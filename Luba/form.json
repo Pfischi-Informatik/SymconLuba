@@ -1,0 +1,34 @@
+{
+    "elements": [
+        {
+            "type": "Label",
+            "caption": "Uebergeordnete Instanz: MQTT Server oder MQTT Client, mit dem luba-control verbunden ist (MQTT_HOST)."
+        },
+        {
+            "type": "ValidationTextBox",
+            "name": "Topic",
+            "caption": "Topic (MQTT_PREFIX/Bluetooth-Name, z.B. luba/Luba-VSXXXXXX)"
+        },
+        {
+            "type": "SelectInstance",
+            "name": "NotifyTarget",
+            "caption": "Push-Meldungen an (Kachel-Visualisierung oder WebFront, leer = keine)"
+        }
+    ],
+    "actions": [
+        {
+            "type": "ValidationTextBox",
+            "name": "Command",
+            "caption": "Befehl (z.B. wake, pause, blade_height 50)"
+        },
+        {
+            "type": "Button",
+            "caption": "Senden",
+            "onClick": "echo LUBA_SendCommand($id, $Command) ? 'Gesendet, Ergebnis im Debug (cmd/result)' : 'Fehlgeschlagen, siehe Meldungen';"
+        }
+    ],
+    "status": [
+        { "code": 102, "icon": "active", "caption": "Aktiv" },
+        { "code": 104, "icon": "inactive", "caption": "Bitte Topic eintragen" }
+    ]
+}

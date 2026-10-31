@@ -1,0 +1,12 @@
+{
+    "id": "{2BCC91C4-76D2-49D7-BF97-9BEC1FD2DFB2}",
+    "author": "Dominik Pfister",
+    "name": "Mammotion Luba",
+    "url": "https://github.com/Pfischi-Informatik/SymconLuba",
+    "compatibility": {
+        "version": "7.1"
+    },
+    "version": "1.0",
+    "build": 1,
+    "date": 0
+}
