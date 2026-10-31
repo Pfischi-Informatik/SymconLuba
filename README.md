@@ -1,6 +1,6 @@
 # Mammotion Luba (IP-Symcon)
 
-Symcon-Modul fuer [luba-control](../luba-control): Luba/Yuka-Maehroboter per MQTT steuern,
+Symcon-Modul fuer luba-control (selbst gehosteter Docker-Dienst auf Basis von PyMammotion): Luba/Yuka-Maehroboter per MQTT steuern,
 Status in Echtzeit, Push-Meldungen (steckt fest, Fehler, Akku leer ...).
 
 ## Voraussetzungen
